@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;windAnemometer/setInterrupt.h&apos; to &apos;handleInterrupt.h&apos;" description="Rename resource &apos;setInterrupt.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="setInterrupt.h" name="handleInterrupt.h" stamp="1537211110063" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;windAnemometer/setInterrupt.cpp&apos; to &apos;handleInterrupt.cpp&apos;" description="Rename resource &apos;setInterrupt.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="setInterrupt.cpp" name="handleInterrupt.cpp" stamp="1537211124779" updateReferences="true"/>
+</session>

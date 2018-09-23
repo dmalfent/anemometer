@@ -1,0 +1,963 @@
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/abi.cpp" -o "core/abi.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/abi.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/CDC.cpp" -o "core/CDC.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/CDC.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/HardwareSerial.cpp" -o "core/HardwareSerial.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/HardwareSerial.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/HardwareSerial0.cpp" -o "core/HardwareSerial0.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/HardwareSerial0.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/HardwareSerial1.cpp" -o "core/HardwareSerial1.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/HardwareSerial1.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/HardwareSerial2.cpp" -o "core/HardwareSerial2.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/HardwareSerial2.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/HardwareSerial3.cpp" -o "core/HardwareSerial3.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/HardwareSerial3.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/hooks.c" -o "core/hooks.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/hooks.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/IPAddress.cpp" -o "core/IPAddress.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/IPAddress.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/main.cpp" -o "core/main.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/main.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/new.cpp" -o "core/new.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/new.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/PluggableUSB.cpp" -o "core/PluggableUSB.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/PluggableUSB.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/Print.cpp" -o "core/Print.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/Print.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/Stream.cpp" -o "core/Stream.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/Stream.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/Tone.cpp" -o "core/Tone.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/Tone.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/USBCore.cpp" -o "core/USBCore.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/USBCore.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/WInterrupts.c" -o "core/WInterrupts.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/WInterrupts.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring.c" -o "core/wiring.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring_analog.c" -o "core/wiring_analog.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring_analog.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring_digital.c" -o "core/wiring_digital.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring_digital.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring_pulse.c" -o "core/wiring_pulse.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring_pulse.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -x assembler-with-cpp -flto -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring_pulse.S" -o "core/wiring_pulse.S.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring_pulse.S.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/wiring_shift.c" -o "core/wiring_shift.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/wiring_shift.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/WMath.cpp" -o "core/WMath.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/WMath.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino/WString.cpp" -o "core/WString.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc-ar" rcs  "./core.a" "core/WString.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/windAnemometer.cpp.o   "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 443 of maximum 30720 bytes
+Initial RAM usage: 8 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 443 of maximum 30720 bytes
+Initial RAM usage: 8 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 443 of maximum 30720 bytes
+Initial RAM usage: 8 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+../../windAnemometer.cpp:2:18: fatal error: Wire.h: No such file or directory
+ #include <Wire.h>
+                  ^
+compilation terminated.
+makefile:67: recipe for target 'project/windAnemometer.cpp.o' failed
+make: *** [project/windAnemometer.cpp.o] Error 1
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp" -o "libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -c -g -Os -w -std=gnu11 -ffunction-sections -fdata-sections -MMD -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src/utility/twi.c" -o "libraries/Wire/src/utility/twi.c.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src/Wire.cpp" -o "libraries/Wire/src/Wire.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src/SPI.cpp" -o "libraries/SPI/src/SPI.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src/HID.cpp" -o "libraries/HID/src/HID.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src/SoftwareSerial.cpp" -o "libraries/SoftwareSerial/src/SoftwareSerial.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include "lcdDisplay.h"
+                        ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+make: *** No rule to make target '../../lcdDisplay.cpp', needed by 'project/lcdDisplay.cpp.o'.  Stop.
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../display/lcdDisplay.cpp" -o "project/display/lcdDisplay.cpp.o"
+../../display/lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/display/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/display/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+make: *** No rule to make target '../../display/lcdDisplay.cpp', needed by 'project/display/lcdDisplay.cpp.o'.  Stop.
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:8:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: array used as initializer
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: error: array used as initializer
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:28: error: array used as initializer
+ lcdDisplay::lcdDisplay(void)
+                            ^
+../../lcdDisplay.cpp:12:28: error: array used as initializer
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:14:11: error: incompatible types in assignment of 'const char [6]' to 'char [0]'
+   cLcdVar = "speed";
+           ^
+../../lcdDisplay.cpp:15:12: error: incompatible types in assignment of 'const char [4]' to 'char [0]'
+   cLcdUnit = "m/s";
+            ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:24:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:33:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:14:11: error: expected primary-expression before ']' token
+   cLcdVar[] = "speed";
+           ^
+../../lcdDisplay.cpp:15:12: error: expected primary-expression before ']' token
+   cLcdUnit[] = "m/s";
+            ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:24:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:33:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:18:24: error: expected identifier before numeric constant
+  LiquidCrystal_I2C lcd(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+                        ^
+../../lcdDisplay.h:18:24: error: expected ',' or '...' before numeric constant
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:15:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.init(); //initialize the lcd
+   ^
+../../lcdDisplay.cpp:16:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.backlight(); //open the backlight
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:23:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("speed"); // Print a message to the LCD.
+   ^
+../../lcdDisplay.cpp:24:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(10,1); // set the cursor to column 15, line 1
+   ^
+../../lcdDisplay.cpp:25:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("m/s");
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:32:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print(newSpeedValue);
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:18:24: error: expected identifier before numeric constant
+  LiquidCrystal_I2C lcd(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+                        ^
+../../lcdDisplay.h:18:24: error: expected ',' or '...' before numeric constant
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:23:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("speed"); // Print a message to the LCD.
+   ^
+../../lcdDisplay.cpp:24:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(10,1); // set the cursor to column 15, line 1
+   ^
+../../lcdDisplay.cpp:25:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("m/s");
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:32:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print(newSpeedValue);
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:23:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("speed"); // Print a message to the LCD.
+   ^
+../../lcdDisplay.cpp:24:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(10,1); // set the cursor to column 15, line 1
+   ^
+../../lcdDisplay.cpp:25:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("m/s");
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:32:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print(newSpeedValue);
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:23:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("speed"); // Print a message to the LCD.
+   ^
+../../lcdDisplay.cpp:24:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(10,1); // set the cursor to column 15, line 1
+   ^
+../../lcdDisplay.cpp:25:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("m/s");
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:32:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print(newSpeedValue);
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:12:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+../../lcdDisplay.cpp:14:16: error: no match for call to '(LiquidCrystal_I2C) (int, int, int)'
+   lcd(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+                ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:12:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+../../lcdDisplay.cpp:14:3: error: 'lcd' is not a member of 'LiquidCrystal_I2C'
+   LiquidCrystal_I2C::lcd(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:12:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+../../lcdDisplay.cpp:14:3: error: 'lcd' is not a member of 'LiquidCrystal_I2C'
+   LiquidCrystal_I2C::lcd(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+   ^
+../../lcdDisplay.cpp:15:3: error: 'lcd' was not declared in this scope
+   lcd.init(); //initialize the lcd
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:12:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:22:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:31:3: error: 'lcd' was not declared in this scope
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:12:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+../../lcdDisplay.cpp:14:49: error: no matching function for call to 'lcdDisplay::lcdDisplay(int, int, int)'
+   LiquidCrystal_I2C::LiquidCrystal_I2C(0x27,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+                                                 ^
+../../lcdDisplay.cpp:14:49: note: candidates are:
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:20:2: note: lcdDisplay::lcdDisplay()
+  lcdDisplay(void);
+  ^
+../../lcdDisplay.h:20:2: note:   candidate expects 0 arguments, 3 provided
+../../lcdDisplay.h:14:7: note: constexpr lcdDisplay::lcdDisplay(const lcdDisplay&)
+ class lcdDisplay : public LiquidCrystal_I2C
+       ^
+../../lcdDisplay.h:14:7: note:   candidate expects 1 argument, 3 provided
+../../lcdDisplay.h:14:7: note: constexpr lcdDisplay::lcdDisplay(lcdDisplay&&)
+../../lcdDisplay.h:14:7: note:   candidate expects 1 argument, 3 provided
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:20:23: error: expected ')' before 'lcd_Addr'
+  lcdDisplay(vouint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rowsid) : LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid);
+                       ^
+../../lcdDisplay.cpp:12:24: error: definition of implicitly-declared 'lcdDisplay::lcdDisplay()'
+ lcdDisplay::lcdDisplay()
+                        ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:20:23: error: expected ')' before 'lcd_Addr'
+  lcdDisplay(vouint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rowsid) : LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid);
+                       ^
+../../lcdDisplay.cpp:12:23: error: expected constructor, destructor, or type conversion before '(' token
+ lcdDisplay::lcdDisplay(0x27,16,2):LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid)
+                       ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:20:23: error: expected ')' before 'lcd_Addr'
+  lcdDisplay(vouint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rowsid) : LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid);
+                       ^
+../../lcdDisplay.cpp:12:23: error: expected constructor, destructor, or type conversion before '(' token
+ lcdDisplay::lcdDisplay(0x27,16,2):LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid)
+                       ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:21:23: error: expected ')' before 'lcd_Addr'
+  lcdDisplay(vouint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rowsid);
+                       ^
+../../lcdDisplay.cpp:12:23: error: expected constructor, destructor, or type conversion before '(' token
+ lcdDisplay::lcdDisplay(0x27,16,2):LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid)
+                       ^
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+make: *** [project/lcdDisplay.cpp.o] Error 1
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:12:23: error: expected constructor, destructor, or type conversion before '(' token
+ lcdDisplay::lcdDisplay(0x27,16,2):LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid)
+                       ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:12:23: error: expected constructor, destructor, or type conversion before '(' token
+ lcdDisplay::lcdDisplay(cd_Addr=0x27,lcd_cols=16,lcd_rowsid=2):LiquidCrystal_I2C(lcd_Addr,lcd_cols,lcd_rowsid)
+                       ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:13:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+make: *** [project/lcdDisplay.cpp.o] Error 1
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:13:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:12:24: error: no matching function for call to 'LiquidCrystal_I2C::LiquidCrystal_I2C()'
+ lcdDisplay::lcdDisplay()
+                        ^
+../../lcdDisplay.cpp:12:24: note: candidates are:
+In file included from ../../lcdDisplay.h:13:0,
+                 from ../../lcdDisplay.cpp:8:
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note: LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t, uint8_t, uint8_t)
+   LiquidCrystal_I2C(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+   ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:57:3: note:   candidate expects 3 arguments, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(const LiquidCrystal_I2C&)
+ class LiquidCrystal_I2C : public Print {
+       ^
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note: constexpr LiquidCrystal_I2C::LiquidCrystal_I2C(LiquidCrystal_I2C&&)
+C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.h:55:7: note:   candidate expects 1 argument, 0 provided
+../../lcdDisplay.cpp:14:16: error: no match for call to '(LiquidCrystal_I2C) (int, int, int)'
+   lcd(0x27,16,2);
+                ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:24:27: error: expected identifier before numeric constant
+     LiquidCrystal_I2C lcd(0x27,16,2);
+                           ^
+../../lcdDisplay.h:24:27: error: expected ',' or '...' before numeric constant
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:14:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.init(); //initialize the lcd
+   ^
+../../lcdDisplay.cpp:15:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.backlight(); //open the backlight
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:21:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,0); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:22:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("speed"); // Print a message to the LCD.
+   ^
+../../lcdDisplay.cpp:23:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(10,1); // set the cursor to column 15, line 1
+   ^
+../../lcdDisplay.cpp:24:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print("m/s");
+   ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::updateSpeed(float)':
+../../lcdDisplay.cpp:30:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.setCursor(0,1); // set the cursor to column 15, line 0
+   ^
+../../lcdDisplay.cpp:31:3: error: '((lcdDisplay*)this)->lcdDisplay::lcd' does not have class type
+   lcd.print(newSpeedValue);
+   ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.h:22:31: error: expected '{' at end of input
+     lcdDisplay():lcd(0x27,16,2);
+                               ^
+../../lcdDisplay.cpp: At global scope:
+../../lcdDisplay.cpp:12:1: error: redefinition of 'lcdDisplay::lcdDisplay()'
+ lcdDisplay::lcdDisplay()
+ ^
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:22:5: note: 'lcdDisplay::lcdDisplay()' previously defined here
+     lcdDisplay():lcd(0x27,16,2);
+     ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.h:22:30: error: expected primary-expression before 'lcd_Addr'
+     lcdDisplay():lcd(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+                              ^
+../../lcdDisplay.h:22:47: error: expected primary-expression before 'lcd_cols'
+     lcdDisplay():lcd(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+                                               ^
+../../lcdDisplay.h:22:64: error: expected primary-expression before 'lcd_rows'
+     lcdDisplay():lcd(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+                                                                ^
+../../lcdDisplay.h:22:72: error: expected '{' at end of input
+     lcdDisplay():lcd(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+                                                                        ^
+../../lcdDisplay.cpp: At global scope:
+../../lcdDisplay.cpp:12:1: error: redefinition of 'lcdDisplay::lcdDisplay()'
+ lcdDisplay::lcdDisplay():lcd(0x27,16,2)
+ ^
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:22:5: note: 'lcdDisplay::lcdDisplay()' previously defined here
+     lcdDisplay():lcd(uint8_t lcd_Addr,uint8_t lcd_cols,uint8_t lcd_rows);
+     ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+../../windAnemometer.cpp:2:24: fatal error: lcdDisplay.h: No such file or directory
+ #include <lcdDisplay.h>
+                        ^
+compilation terminated.
+make: *** [project/windAnemometer.cpp.o] Error 1
+makefile:82: recipe for target 'project/windAnemometer.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp:28:7: error: prototype for 'void lcdDisplay::updateSpeed(double)' does not match any in class 'lcdDisplay'
+  void lcdDisplay::updateSpeed(double newSpeedValue)
+       ^
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:25:10: error: candidate is: void lcdDisplay::updateSpeed(float)
+     void updateSpeed(float newSpeedValue);
+          ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4921 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 2991 of maximum 30720 bytes
+Initial RAM usage: 274 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4837 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4837 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4463 of maximum 30720 bytes
+Initial RAM usage: 244 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4463 of maximum 30720 bytes
+Initial RAM usage: 244 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4467 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4467 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4465 of maximum 30720 bytes
+Initial RAM usage: 246 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4465 of maximum 30720 bytes
+Initial RAM usage: 246 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4453 of maximum 30720 bytes
+Initial RAM usage: 246 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4453 of maximum 30720 bytes
+Initial RAM usage: 246 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+make: Nothing to be done for 'all'.
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+In file included from ../../lcdDisplay.cpp:8:0:
+../../lcdDisplay.h:14:18: fatal error: string: No such file or directory
+ #include <string>
+                  ^
+compilation terminated.
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+../../lcdDisplay.cpp: In constructor 'lcdDisplay::lcdDisplay()':
+../../lcdDisplay.cpp:15:2: error: 'cUnit' was not declared in this scope
+  cUnit = "m/s";
+  ^
+../../lcdDisplay.cpp:16:2: error: 'cFirstLine' was not declared in this scope
+  cFirstLine = "speed = ";
+  ^
+../../lcdDisplay.cpp: In member function 'void lcdDisplay::setDisplay()':
+../../lcdDisplay.cpp:29:13: error: 'cFirstLine' was not declared in this scope
+   lcd.print(cFirstLine); // Print a message to the LCD.
+             ^
+../../lcdDisplay.cpp:31:13: error: 'cUnit' was not declared in this scope
+   lcd.print(cUnit);
+             ^
+make: *** [project/lcdDisplay.cpp.o] Error 1
+makefile:74: recipe for target 'project/lcdDisplay.cpp.o' failed
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4461 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../handleInterrupt.cpp" -o "project/handleInterrupt.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/handleInterrupt.cpp.o project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4481 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/handleInterrupt.cpp.o project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 4543 of maximum 30720 bytes
+Initial RAM usage: 248 of maximum 2048 bytes
+
+Building windAnemometer
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../digitalInput.cpp" -o "project/digitalInput.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../handleInterrupt.cpp" -o "project/handleInterrupt.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../lcdDisplay.cpp" -o "project/lcdDisplay.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10608 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR   -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/cores/arduino" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/variants/eightanaloginputs" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/EEPROM/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/LiquidCrystal_I2C" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/Wire/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SPI/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/HID/src" -I"C:/Users/Daniel/.arduinocdt/packages/arduino/hardware/avr/1.6.21/libraries/SoftwareSerial/src" "../../windAnemometer.cpp" -o "project/windAnemometer.cpp.o"
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-gcc" -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p  -o "./windAnemometer.elf" project/digitalInput.cpp.o project/handleInterrupt.cpp.o project/lcdDisplay.cpp.o project/windAnemometer.cpp.o  libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp.o libraries/Wire/src/utility/twi.c.o libraries/Wire/src/Wire.cpp.o libraries/SPI/src/SPI.cpp.o libraries/HID/src/HID.cpp.o libraries/SoftwareSerial/src/SoftwareSerial.cpp.o  "./core.a" "-L." -lm
+"C:/Users/Daniel/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-objcopy" -O ihex -R .eeprom  "./windAnemometer.elf" "./windAnemometer.hex"
+Program store usage: 6719 of maximum 30720 bytes
+Initial RAM usage: 284 of maximum 2048 bytes

@@ -1,0 +1,18 @@
+/*
+ * digitalInput.cpp
+ *
+ *  Created on: 18.09.2018
+ *      Author: Daniel
+ */
+
+#include "digitalInput.h"
+
+digitalInput::digitalInput(nPin)
+{
+
+}
+
+void digitalInput::init()
+{
+  pinMode(2, INPUT);
+}

@@ -1,0 +1,16 @@
+ToolChainManager/order/0.id=gcc-x86_64-C\:/MinGW/bin/gcc.exe
+ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/1.id=gcc-x86_64-C\:/MinGW/bin/x86_64-w64-mingw32-gcc.exe
+ToolChainManager/order/1.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/2.id=default
+ToolChainManager/order/2.type=org.eclipse.cdt.arduino
+ToolChainManager/order/3.id=Nano
+ToolChainManager/order/3.type=org.eclipse.cdt.arduino
+ToolChainManager/order/n=4
+config/windAnemometer/cdt.launchMode=run
+config/windAnemometer/cdt.toolChain.id=default
+config/windAnemometer/cdt.toolChain.type=org.eclipse.cdt.arduino
+config/windAnemometer/org.eclipse.cdt.arduino.core.provider/Nano/cdt.launchMode=run
+config/windAnemometer/org.eclipse.cdt.arduino.core.provider/Nano/cdt.toolChain.id=Nano
+config/windAnemometer/org.eclipse.cdt.arduino.core.provider/Nano/cdt.toolChain.type=org.eclipse.cdt.arduino
+eclipse.preferences.version=1

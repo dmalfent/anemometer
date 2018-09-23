@@ -1,0 +1,13 @@
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/arduinoBoardName=nano
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/arduinoPackageName=arduino
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/arduinoPlatformName=avr
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/arduinoPortName=COM3
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/menu_cpu=atmega328
+connections/org.eclipse.cdt.arduino.core.connectionType/Arduino+Nano/programmer=arduinoasisp
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/arduinoBoardName=nano
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/arduinoPackageName=arduino
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/arduinoPlatformName=avr
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/arduinoPortName=COM3
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/menu_cpu=atmega328old
+connections/org.eclipse.cdt.arduino.core.connectionType/Nano/programmer=avrisp
+eclipse.preferences.version=1

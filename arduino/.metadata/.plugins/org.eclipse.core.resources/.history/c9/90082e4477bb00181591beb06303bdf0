@@ -1,0 +1,29 @@
+/*
+ * digitalInput.h
+ *
+ *  Created on: 18.09.2018
+ *      Author: Daniel
+ */
+
+#ifndef DIGITALINPUT_H_
+#define DIGITALINPUT_H_
+
+
+#include <Arduino.h>
+
+class digitalInput
+{
+  private:
+	uint8_t i_nPin;
+
+  public:
+
+	uint8_t nStatusDIN;
+
+	digitalInput(uint8_t nPin);
+    void init();
+    void read();
+    void detectFlank();
+};
+
+#endif /* DIGITALINPUT_H_ */

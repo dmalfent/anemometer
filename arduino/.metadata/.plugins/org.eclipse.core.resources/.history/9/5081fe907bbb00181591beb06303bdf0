@@ -1,0 +1,35 @@
+#include <Arduino.h>
+#include "lcdDisplay.h"
+#include "handleInterrupt.h"
+#include "digitalInput.h"
+
+/**********************************************************/
+double value = 0.0;
+lcdDisplay lcdDisp;
+handleInterrupt interrupt;
+digitalInput DIN2(2);
+digitalInput DIN3(3);
+/*********************************************************/
+void setup()
+{
+  lcdDisp.initDisplay();
+  interrupt.init500kHzInterrupt();
+  DIN2.init();
+  DIN3.init();
+}
+/*********************************************************/
+void loop()
+{
+
+  lcdDisp.updateSpeed(value);
+
+}
+/************************************************************/
+ISR(TIMER1_COMPA_vect)//timer1 interrupt 2Hz
+{
+  DIN2.read();
+  DIN3.read();
+
+}
+
+

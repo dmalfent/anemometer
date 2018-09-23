@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;windAnemometer/display/lcdDisplay&apos; to &apos;lcdDisplay.h&apos;" description="Rename resource &apos;lcdDisplay&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="display/lcdDisplay" name="lcdDisplay.h" stamp="1535825927243" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+/*
+ * setInterrupt.h
+ *
+ *  Created on: 01.09.2018
+ *      Author: Daniel
+ */
+
+#ifndef SET_INTERRUPT_H_
+#define SET_INTERRUPT_H_
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+class setInterrupt
+{
+  private:
+
+  public:
+    setInterrupt();
+
+
+
+};
+
+#endif /* SET_INTERRUPT_H_ */
