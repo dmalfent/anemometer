@@ -1,0 +1,32 @@
+/*
+ * fInterrupt.h
+ *
+ *  Created on: 01.09.2018
+ *      Author: Daniel
+ */
+
+#ifndef HANDLE_INTERRUPT_H_
+#define HANDLE_INTERRUPT_H_
+
+#include <Arduino.h>
+
+#define MAX_COMPARE_VALUE 65536
+#define MAX_FREQUENCY 16000000
+
+class handleInterrupt
+{
+  private:
+	int nPreScaleIndex;
+
+	void setPreScale();
+
+  public:
+	long nCompareMatchReg;
+	int nPreScale;
+	int nInterruptFrequency;
+
+    handleInterrupt(int nInterruptFreq);
+    void init();
+};
+
+#endif /* HANDLE_INTERRUPT_H_ */

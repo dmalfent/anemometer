@@ -9,12 +9,12 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-lcdDisplay::lcdDisplay():lcd(0x27,16,2)
-{
-	nLcdDelayTime = 500;
-	unitSpeed = "m/s";
-	firstLine = "speed = ";
-}
+lcdDisplay::lcdDisplay()
+:lcd(0x27,16,2)
+,nLcdDelayTime{500}
+,cUnitSpeed{"m/s"}
+,cFirstLine{"speed = "}
+{}
 
 void lcdDisplay::initDisplay()
 {
@@ -26,15 +26,18 @@ void lcdDisplay::initDisplay()
 void lcdDisplay::setDisplay()
 {
   lcd.setCursor(0,0); // set the cursor to column 15, line 0
-  lcd.print(firstLine); // Print a message to the LCD.
+  lcd.print(cFirstLine); // Print a message to the LCD.
   lcd.setCursor(13,0); // set the cursor to column 15, line 1
-  lcd.print(unitSpeed);
-  lcdDisplay::updateSpeed(0.0);
+  lcd.print(cUnitSpeed);
 }
 
- void lcdDisplay::updateSpeed(double newSpeedValue)
+ void lcdDisplay::updateSpeed(double& newSpeedValue,long index,long preFactor)
 {
   lcd.setCursor(8,0); // set the cursor to column 15, line 0
   lcd.print(newSpeedValue,2);
+  lcd.setCursor(0,1);
+  lcd.print(index);
+  lcd.setCursor(9,1);
+  lcd.print(preFactor);
 }
 

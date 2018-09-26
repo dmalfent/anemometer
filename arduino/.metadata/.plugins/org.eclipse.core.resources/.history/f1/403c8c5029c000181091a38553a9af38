@@ -1,0 +1,33 @@
+/*
+ * lcdDisplay.h
+ *
+ *  Created on: 01.09.2018
+ *      Author: Daniel
+ */
+
+#ifndef DISPLAY_LCDDISPLAY_H_
+#define DISPLAY_LCDDISPLAY_H_
+
+#include <inttypes.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include <String.h>
+
+class lcdDisplay
+{
+  private:
+    int nLcdDelayTime; //the value of delay time
+    LiquidCrystal_I2C lcd;
+    String unitSpeed;
+    String firstLine;
+
+  public:
+    lcdDisplay();
+    void initDisplay(void);
+    void setDisplay(void);
+    void updateSpeed(double newSpeedValue,int index,int preFactor);
+
+
+};
+
+#endif /* DISPLAY_LCDDISPLAY_H_ */

@@ -8,12 +8,11 @@
 #include "digitalInput.h"
 
 digitalInput::digitalInput(uint8_t nPin)
-{
-  i_nPin = nPin;
-  nStatusDIN = 0;
-  nStatusDINpre = 0;
-  bChangedEdge = false;
-}
+:i_nPin{nPin}
+,nStatusDIN{0}
+,nStatusDINpre{0}
+,bChangedEdge{false}
+{}
 
 void digitalInput::init()
 {

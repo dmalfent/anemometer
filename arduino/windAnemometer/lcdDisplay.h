@@ -18,14 +18,14 @@ class lcdDisplay
   private:
     int nLcdDelayTime; //the value of delay time
     LiquidCrystal_I2C lcd;
-    String unitSpeed;
-    String firstLine;
+    String cUnitSpeed;
+    String cFirstLine;
 
   public:
     lcdDisplay();
     void initDisplay(void);
     void setDisplay(void);
-    void updateSpeed(double newSpeedValue);
+    void updateSpeed(double& newSpeedValue,long index,long preFactor);
 
 
 };
